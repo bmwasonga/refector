@@ -3,15 +3,14 @@ import IMAGES from '../images/Images';
 
 function HeroSection() {
 	return (
-		<div className='flex-col overflow-hidden self-stretch relative flex min-h-[1024px] w-full pt-36 pb-60 px-20 max-md:max-w-full max-md:px-5 max-md:py-24 bg-teal-500'>
-			{' '}
-			<img
+		<div className='flex-col flex min-h-[1024px] w-full bg-teal-500'>
+			{/* <img
 				loading='lazy'
 				src={IMAGES.image13}
 				alt={'logo'}
 				className='absolute z-[-1] h-full w-full object-cover object-center inset-0'
-			/>
-			<div className='relative items-center self-center flex mb-0 w-[740px] max-w-full flex-col max-md:mb-2.5'>
+			/> */}
+			<div className='relative items-center self-center flex mb-0 w-[740px] pt-28 max-w-full flex-col'>
 				<img
 					src={IMAGES.image1}
 					alt={'logo'}
